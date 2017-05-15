@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-spacing: 0;
+}
+#head {
+  background-color: #37b8e9;
+  border-color: 1px #2d95bc;
+  color: white;
+  /*padding: 10px;*/
+}
+#data {
+  background-color: #D9ECF4;
+}
+.dark {
+  background-color: #283B4D;
+  border-color: 5px #2d95bc;
+}
+.medium {
+  background-color: #4897CC;
+}
+.dark, .medium, .light {
+  text-align: center;
+}
+.dark, .medium {
+  color: white;
+}
+.light {
+  color: #808080;
+  border: solid 1px #808080;
+  /*border-collapse: separate;*/
+  border-spacing: 0px;
+}

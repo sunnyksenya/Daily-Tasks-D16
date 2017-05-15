@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+.art {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px auto;
+  background-image: url(http://lorempixel.com/200/200/);
+  position: relative;
+}
+.social {
+  width: 200px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+}
